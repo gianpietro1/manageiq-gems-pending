@@ -6,7 +6,7 @@ gemspec
 # Modified gems (forked on github)
 gem "handsoap", "~>0.2.5", :require => false, :git => "https://github.com/ManageIQ/handsoap.git", :tag => "v0.2.5-5"
 gem "rubywbem",            :require => false, :git => "https://github.com/ManageIQ/rubywbem.git", :branch => "rubywbem_0_1_0"
-gem "fog-openstack",       :require => true, :git => "https://github.com/gianpietro1/fog-openstack", :branch => "master"
+gem "fog-openstack",       :require => false, :git => "https://github.com/gianpietro1/fog-openstack", :branch => "master"
 
 group :test do
   gem "simplecov", :require => false
