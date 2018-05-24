@@ -11,3 +11,5 @@ group :test do
   gem "simplecov", :require => false
   gem "codeclimate-test-reporter", "~> 1.0.0", :require => false
 end
+
+gem "fog-openstack"                              :require => true, :git => "https://github.com/gianpietro1/fog-openstack", :branch => "master"
